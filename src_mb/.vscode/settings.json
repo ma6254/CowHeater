@@ -9,13 +9,16 @@
     "**/*.uvproj": true,
     "**/*.uvgui.*": true
   },
-  "editor.rulers": [80, 120],
-  "todohighlight.include": ["**/*.c", "**/*.h"],
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "todohighlight.include": [
+    "**/*.c",
+    "**/*.h"
+  ],
   "files.defaultLanguage": "c",
-  "fileheader.cursorMode": {
-    // 默认字段
-    "description": "",
-    "param": "",
-    "return": ""
+  "[markdown]": {
+    "files.encoding": "utf8",
   }
 }

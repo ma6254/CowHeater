@@ -3,8 +3,8 @@
         {
             "name": "Keil MDK 8051 Core",
             "includePath": [
-                "${workspaceFolder}\\",
-                "C:\\Keil_v5\\C51\\INC\\**"
+                "C:/Keil_v5/C51/INC/**",
+                "${workspaceFolder}/"
             ],
             "defines": [
                 "__C51__",
