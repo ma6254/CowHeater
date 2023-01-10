@@ -41,7 +41,7 @@ CowHeater 是一个开源的加热台，不便携。
 
 ### STC开发资料
 
-- STC8H数据手册: [http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf](http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf)
+- STC8H数据手册: <http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf>
   - P.72: STC8H8K64U-TSSOP20引脚定义
-- STC-ISP下载链接: [http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip](http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip)
-- STC命令行烧录软件 stcflash: [https://github.com/sms-wyt/stcflash](https://github.com/sms-wyt/stcflash)
+- STC-ISP下载链接: <http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip>
+- STC命令行烧录软件 stcflash: <https://github.com/sms-wyt/stcflash>

@@ -31,4 +31,4 @@ PS> pdftoppm -png .\CowHeater_SCH_V01.pdf CowHeater_SCH_V01
 
 ## 参考资料
 
-- 常用AD器件库 [https://github.com/Kevincoooool/AltiumDesigner_PcbLibrary_3D](https://github.com/Kevincoooool/AltiumDesigner_PcbLibrary_3D)
+- 常用AD器件库 <https://github.com/Kevincoooool/AltiumDesigner_PcbLibrary_3D>
