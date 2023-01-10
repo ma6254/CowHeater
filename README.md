@@ -34,13 +34,14 @@ CowHeater 是一个开源的加热台，不便携。
    - BUG: 发热板热量会通过铜柱传导到PCB上面，后面需要解决
    - 靠，立创商城下单数量错了，STC单片机只买了一片
    - 靠，PCB打样的收件地址写错了，写成了上家公司，让同事寄过来了
+   - 靠，烧录口没引出来，还得割线飞线
    - 有几个包裹是圆通的，还没配送
 
 ## 参考资料
 
 ### STC开发资料
 
-- STC8H数据手册: <http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf>
+- STC8H数据手册: [http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf](http://www.stcmcudata.com/STC8F-DATASHEET/STC8H.pdf)
   - P.72: STC8H8K64U-TSSOP20引脚定义
-- STC-ISP下载链接: <http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip>
-- STC命令行烧录软件 stcflash: <https://github.com/sms-wyt/stcflash>
+- STC-ISP下载链接: [http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip](http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip)
+- STC命令行烧录软件 stcflash: [https://github.com/sms-wyt/stcflash](https://github.com/sms-wyt/stcflash)
