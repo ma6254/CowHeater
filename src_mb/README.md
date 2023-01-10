@@ -49,3 +49,12 @@
 左上角 `Edit`，然后是 `Configuration..`，第一个选项卡 `Editor`
 
 ![switch keil encode to utf8](./docs/switch%20keil%20encode%20to%20gb2312.png)
+
+## 使用stcflash烧录
+
+stcgal不支持stc8h，可以用`sms-wyt`版本的stcflash
+在keil中配置好之后，按快捷键`F8`就可以烧录了
+
+![keil flash use stcflash](docs/keil%20flash%20use%20stcflash.png)
+![keil flash use stcflash log](docs/keil%20flash%20use%20stcflash%20log.png)
+![keil shortcut key Flash download](docs/keil%20shortcut%20key%20Flash%20download.png)

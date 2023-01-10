@@ -1,4 +1,5 @@
 *.log
+/src_mb/stcflash/
 
 # Altium Designer gitignore
 # https://github.com/Fermium/altium-on-git/blob/master/.gitignore

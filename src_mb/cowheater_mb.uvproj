@@ -169,7 +169,7 @@
         <Utilities>
           <Flash1>
             <UseTargetDll>0</UseTargetDll>
-            <UseExternalTool>0</UseExternalTool>
+            <UseExternalTool>1</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
             <Capability>0</Capability>
@@ -177,7 +177,7 @@
           </Flash1>
           <bUseTDR>0</bUseTDR>
           <Flash2></Flash2>
-          <Flash3>"" ()</Flash3>
+          <Flash3>"python stcflash/stcflash.py" (-p COM10 Objects/cowheater_mb.hex)</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -324,7 +324,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Sources\stc_hal\std_lib;.\Sources\stc_hal\sys</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -390,6 +390,16 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Sources\app\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HAL</GroupName>
+          <Files>
+            <File>
+              <FileName>hal_sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\stc_hal\sys\hal_sys.c</FilePath>
             </File>
           </Files>
         </Group>
