@@ -1,0 +1,21 @@
+{
+  "files.autoGuessEncoding": false,
+  "files.encoding": "gb2312",
+  "C_Cpp.exclusionPolicy": "checkFilesAndFolders",
+  "files.exclude": {
+    "**/Listings": true,
+    "**/Objects": true,
+    "**/*.uvopt": true,
+    "**/*.uvproj": true,
+    "**/*.uvgui.*": true
+  },
+  "editor.rulers": [80, 120],
+  "todohighlight.include": ["**/*.c", "**/*.h"],
+  "files.defaultLanguage": "c",
+  "fileheader.cursorMode": {
+    // 默认字段
+    "description": "",
+    "param": "",
+    "return": ""
+  }
+}

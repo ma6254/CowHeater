@@ -1,0 +1,20 @@
+*.log
+
+# Altium Designer gitignore
+# https://github.com/Fermium/altium-on-git/blob/master/.gitignore
+*.PrjPcbStructure
+__Previews/
+History/
+Project\ Logs for\ *
+Project Outputs for\ *
+
+# Keil gitignore
+# https://github.com/mrshrdlu/gitignore-keil/blob/master/keil.gitignore
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+Objects/
+Listings/
