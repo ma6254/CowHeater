@@ -45,3 +45,8 @@ CowHeater 是一个开源的加热台，不便携。
   - P.72: STC8H8K64U-TSSOP20引脚定义
 - STC-ISP下载链接: <http://www.stcmcudata.com/STCISP/stc-isp-15xx-v6.91I.zip>
 - STC命令行烧录软件 stcflash: <https://github.com/sms-wyt/stcflash>
+
+### 海凌科电源模块资料
+
+- [HLK-2M05/2M03/2M09/2M12/2M24 2W系列AC-DC电源模块](<https://www.hlktech.com/Goods-39.html>)
+- [海凌科2W系列电源模块说明书V2.6.pdf](http://r0.hlktech.com/download/ACDC%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%972W%E7%B3%BB%E5%88%97/1/%E6%B5%B7%E5%87%8C%E7%A7%912W%E7%B3%BB%E5%88%97%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97%E8%AF%B4%E6%98%8E%E4%B9%A6V2.6.pdf)
