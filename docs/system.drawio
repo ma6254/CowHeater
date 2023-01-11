@@ -1,19 +1,14 @@
 <mxfile host="65bd71144e" scale="1" border="8">
     <diagram id="V-aH-dHEjZ8n08KZbWzu" name="第 1 页">
-        <mxGraphModel dx="379" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1570" dy="2116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="18" value="加热平台" style="rounded=1;whiteSpace=wrap;dashed=1;fillColor=none;strokeWidth=4;direction=west;fontFamily=微软雅黑;fontStyle=0;labelBorderColor=none;fontColor=default;html=1;fontSize=20;" parent="1" vertex="1">
                     <mxGeometry x="590" y="-490" width="180" height="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=4;rounded=1;" parent="1" source="0vWVwpRD0ktxSwc0A-8D-1" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="319.741935483871" y="-170" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="0vWVwpRD0ktxSwc0A-8D-1" value="主控&lt;br&gt;STC8H8K64U&lt;br&gt;TSSOP20" style="rounded=1;whiteSpace=wrap;glass=0;shadow=0;fillStyle=solid;labelBorderColor=none;fontStyle=0;strokeWidth=4;fontFamily=微软雅黑;fontColor=default;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="-290" width="120" height="120" as="geometry"/>
+                    <mxGeometry x="260" y="-290" width="120" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="0vWVwpRD0ktxSwc0A-8D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBorderColor=none;fontColor=default;fontStyle=0;shadow=0;strokeWidth=4;fontFamily=微软雅黑;html=1;" parent="1" source="0vWVwpRD0ktxSwc0A-8D-4" target="0vWVwpRD0ktxSwc0A-8D-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -77,7 +72,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="19" value="通讯接口&lt;br&gt;UART&lt;br&gt;I2C" style="whiteSpace=wrap;html=1;fontFamily=微软雅黑;rounded=1;glass=0;shadow=0;fillStyle=solid;labelBorderColor=none;fontStyle=0;strokeWidth=4;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="-340" width="70" height="60" as="geometry"/>
+                    <mxGeometry x="130" y="-310" width="70" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="19" target="0vWVwpRD0ktxSwc0A-8D-1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -91,11 +86,17 @@
                 <mxCell id="23" value="冷端温度" style="rounded=1;whiteSpace=wrap;glass=0;shadow=0;labelBorderColor=none;fontStyle=0;strokeWidth=4;fontFamily=微软雅黑;fontColor=default;html=1;" parent="1" vertex="1">
                     <mxGeometry x="460" y="-200" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;startArrow=classic;startFill=1;endArrow=none;endFill=0;rounded=1;" parent="1" source="25" target="0vWVwpRD0ktxSwc0A-8D-1" edge="1">
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=4;startArrow=classic;startFill=1;endArrow=none;endFill=0;rounded=1;" parent="1" source="25" target="0vWVwpRD0ktxSwc0A-8D-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="LED" style="whiteSpace=wrap;html=1;fontFamily=微软雅黑;rounded=1;glass=0;shadow=0;fillStyle=solid;labelBorderColor=none;fontStyle=0;strokeWidth=4;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="-220" width="70" height="60" as="geometry"/>
+                    <mxGeometry x="130" y="-150" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;startArrow=classic;startFill=1;" edge="1" parent="1" source="29" target="0vWVwpRD0ktxSwc0A-8D-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="STC-ISP&lt;br&gt;串口烧录口" style="whiteSpace=wrap;html=1;fontFamily=微软雅黑;rounded=1;glass=0;shadow=0;fillStyle=solid;labelBorderColor=none;fontStyle=0;strokeWidth=4;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="-240" width="70" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
