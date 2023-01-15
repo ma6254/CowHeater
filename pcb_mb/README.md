@@ -13,8 +13,8 @@
 └─Schlib1.SchLib       # 原理图封装库
 ```
 
-![sch](./Backups/V01/CowHeater_SCH_V01.png)
-![sch](./Backups/V01/CowHeater_PCB_V01.png)
+![sch](./Backups/V02/CowHeater_SCH_V02.png)
+![sch](./Backups/V02/CowHeater_PCB_V02.png)
 
 ## PDF to img
 
