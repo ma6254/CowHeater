@@ -15,7 +15,7 @@ typedef unsigned long uint32_t;
 
 typedef unsigned char bool;
 
-//typedef uint32_t size_t;
+// typedef uint32_t size_t;
 
 #define int8_t signed char
 #define int16_t signed int
@@ -24,12 +24,16 @@ typedef unsigned char bool;
 #define float32_t float
 #define float64_t double
 
-#define u8 volatile unsigned char
-#define u16 volatile unsigned int
-#define u32 volatile unsigned long
-
-#define TRUE ((uint8_t)(1))
+#define TRUE (((uint8_t)(1)))
 #define FALSE ((uint8_t)(0))
+
+typedef bit BOOL;
+
+typedef enum
+{
+    false,
+    true,
+} bool_t;
 
 #define UINT8_MAX ((uint8_t)(0xFF))
 #define UINT16_MAX ((uint16_t)(0xFFFF))

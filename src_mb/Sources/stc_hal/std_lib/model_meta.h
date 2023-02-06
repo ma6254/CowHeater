@@ -5,35 +5,33 @@
  * ENUM CHIP_FOOTPRINT
  ******************************************************************************/
 
-// SOP
-#define CHIP_FOOTPRINT_SOP8 0x00
-#define CHIP_FOOTPRINT_SOP16 0x01
-#define CHIP_FOOTPRINT_SOP20 0x02
-#define CHIP_FOOTPRINT_SOP24 0x03
-#define CHIP_FOOTPRINT_SOP28 0x04
+// LQFP 0x11**
+#define CHIP_FOOTPRINT_LQFP32 0x1120
+#define CHIP_FOOTPRINT_LQFP44 0x112C
+#define CHIP_FOOTPRINT_LQFP48 0x1130
+#define CHIP_FOOTPRINT_LQFP64 0x1140
 
-// LQFP
-#define CHIP_FOOTPRINT_LQFP32 0x10
-#define CHIP_FOOTPRINT_LQFP44 0x11
-#define CHIP_FOOTPRINT_LQFP48 0x12
-#define CHIP_FOOTPRINT_LQFP64 0x13
+// SOP 0x00**
+#define CHIP_FOOTPRINT_SOP8 0x1808
+#define CHIP_FOOTPRINT_SOP16 0x1810
+#define CHIP_FOOTPRINT_SOP20 0x1814
+#define CHIP_FOOTPRINT_SOP24 0x1818
+#define CHIP_FOOTPRINT_SOP28 0x181C
 
-// QFN
-#define CHIP_FOOTPRINT_QFN20 0x20
+// SSOP 0x01**
+
+// TSSOP 0x02**
+#define CHIP_FOOTPRINT_TSSOP20 0x1914
+
+// QFN 0x04**
+#define CHIP_FOOTPRINT_QFN20 0x1614
+#define CHIP_FOOTPRINT_QFN32 0x1620
 
 /*******************************************************************************
  * ENUM CHIP_MODEL
  ******************************************************************************/
 
-// Sinowealth 00xx
-#define CHIP_MODEL_SH79F9261 0x0000
-#define CHIP_MODEL_SH79F9476 0x0001
-
-// BYD 01xx
-#define CHIP_MODEL_BF7615CM 0x0100
-
 // STC8H 0x02xx
-#define CHIP_MODEL_STC8H_GENERIC 0x0200
-#define CHIP_MODEL_STC8H8K64U 0x0201
+#define CHIP_MODEL_STC8H8K64U 0xF783
 
 #endif

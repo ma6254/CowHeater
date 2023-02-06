@@ -322,9 +322,9 @@
             <InterruptVectorAddress>0</InterruptVectorAddress>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>__KEIL_C51__</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Sources\stc_hal\std_lib;.\Sources\stc_hal\sys</IncludePath>
+              <IncludePath>.\Sources\stc_hal;.\Sources\stc_hal\std_lib;.\Sources\stc_hal\sys;.\Sources\stc_hal\gpio;.\Sources\stc_hal\timer;.\Sources\stc_hal\adc;.\Sources\stc_hal\uart;.\Sources\components\thyristor;.\Sources\app</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -374,7 +374,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>ASM</GroupName>
+          <GroupName>asm</GroupName>
           <Files>
             <File>
               <FileName>STARTUP.A51</FileName>
@@ -384,22 +384,92 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>APP</GroupName>
+          <GroupName>config</GroupName>
           <Files>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Sources\app\main.c</FilePath>
+              <FileName>stc_hal_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Sources\app\stc_hal_config.h</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>HAL</GroupName>
+          <GroupName>hal</GroupName>
           <Files>
             <File>
               <FileName>hal_sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Sources\stc_hal\sys\hal_sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\stc_hal\gpio\hal_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\stc_hal\timer\hal_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\stc_hal\adc\hal_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\stc_hal\uart\hal_uart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>components</GroupName>
+          <Files>
+            <File>
+              <FileName>thyristor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\components\thyristor\thyristor.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>app</GroupName>
+          <Files>
+            <File>
+              <FileName>debug_print.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\app\debug_print.c</FilePath>
+            </File>
+            <File>
+              <FileName>sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\app\sensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>load.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\app\load.c</FilePath>
+            </File>
+            <File>
+              <FileName>interrupt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\app\interrupt.c</FilePath>
+            </File>
+            <File>
+              <FileName>interrupt_map.a51</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Sources\app\interrupt_map.a51</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sources\app\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>README.md</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\README.md</FilePath>
             </File>
           </Files>
         </Group>

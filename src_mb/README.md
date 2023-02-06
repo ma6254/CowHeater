@@ -1,7 +1,8 @@
 # Source CowHeater_MB
 
 芯片: `STC8H8K64U`(`TSSOP20`)
-烧录文件: `Objects/cowheater_mb.hex`
+
+烧录文件: [`Objects/cowheater_mb.hex`](Objects/cowheater_mb.hex)
 
 ## 引脚定义
 
@@ -18,12 +19,15 @@
 ## 目录
 
 ```plaintext
-├─.vscode       # VSCode配置
-├─Objects       # 编译生成
-└─Sources       # 源代码
-    ├─app       # 应用层代码
-    │  └─main.c # 程序入口
-    └─stc_hal   # STC寄存器驱动
+├─.vscode             # VSCode配置
+├─Objects             # 编译生成
+└─Sources             # 源代码
+    ├─app             # 应用层代码
+    │  └─main.c       # 程序入口
+    ├─components      # 组件库
+    │  ├─thermocouple # 热电偶
+    │  └─thyristor    # 可控硅
+    └─stc_hal         # STC寄存器驱动
 ```
 
 ## 添加STC头文件到Keil中
@@ -58,3 +62,7 @@ stcgal不支持stc8h，可以用`sms-wyt`版本的stcflash
 ![keil flash use stcflash](docs/keil%20flash%20use%20stcflash.png)
 ![keil flash use stcflash log](docs/keil%20flash%20use%20stcflash%20log.png)
 ![keil shortcut key Flash download](docs/keil%20shortcut%20key%20Flash%20download.png)
+
+## 参考资料
+
+- Keil Configuration Wizard: <https://www.keil.com/pack/doc/CMSIS_Dev/Pack/html/configWizard.html>

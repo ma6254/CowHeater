@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<MThings>
+	<PORT_LIST>
+		<COM Name="COM6" Remarks="" Baund="9600" Parity="0" StopBit="0" DataBit="0" FlowCtrl="0" TransMode="0" CharType="0" BreakTime="10" />
+		<COM Name="COM10" Remarks="" Baund="115200" Parity="0" StopBit="0" DataBit="0" FlowCtrl="0" TransMode="0" CharType="0" BreakTime="10" />
+	</PORT_LIST>
+	<ALARM_LIST>
+		<TYPELIST />
+	</ALARM_LIST>
+	<SYS_DATA Title="双击这里开始..." BackColor="#ffffff" width="1920" hight="930" PicPath="" />
+	<DEVICE_LIST>
+		<DEVICE ID="1" Name="加热台" DeviceType="1" Addr="1" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<COM10 />
+			</PORTS>
+			<SELF_LIST>
+				<SELF_CMD cmd="" timeout="5000" timedelay="0" />
+			</SELF_LIST>
+			<DATA_LIST>
+				<DATA Name="功率" BLOCK="2" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="0" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="8" Range="0-10" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="10" IsShow="1" IsBRead="1" IsSave1="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="#873cdb" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+				<DATA Name="NTC温度" BLOCK="3" PrtcTYPE="0" PointNum="1" Unit="℃" ShowType="0" Addr="1000" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="-10-40" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="10" IsShow="1" IsBRead="1" IsSave1="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+				<DATA Name="加热温度" BLOCK="3" PrtcTYPE="0" PointNum="1" Unit="℃" ShowType="0" Addr="1001" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="--" Color="" ByteOder="0" WordOder="0" IntervalTime="10" IsShow="1" IsBRead="1" IsSave1="0" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+	</DEVICE_LIST>
+</MThings>

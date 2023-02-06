@@ -7,18 +7,26 @@
     "**/Objects": true,
     "**/*.uvopt": true,
     "**/*.uvproj": true,
-    "**/*.uvgui.*": true
+    "**/*.uvgui.*": true,
+    "stcflash/": true,
   },
   "editor.rulers": [
     80,
     120
   ],
   "todohighlight.include": [
+    "**/*.md",
     "**/*.c",
     "**/*.h"
   ],
   "files.defaultLanguage": "c",
   "[markdown]": {
     "files.encoding": "utf8",
+  },
+  "files.associations": {
+    "*.H": "c",
+    "Caddyfile": "caddyfile",
+    "*.j2": "jinja",
+    "xutility": "c"
   }
 }

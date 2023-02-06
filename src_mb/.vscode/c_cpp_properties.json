@@ -4,7 +4,16 @@
             "name": "Keil MDK 8051 Core",
             "includePath": [
                 "C:/Keil_v5/C51/INC/**",
-                "${workspaceFolder}/"
+                "${workspaceFolder}/Sources/",
+                "${workspaceFolder}/Sources/app",
+                "${workspaceFolder}/Sources/stc_hal",
+                "${workspaceFolder}/Sources/stc_hal/std_lib",
+                "${workspaceFolder}/Sources/stc_hal/sys",
+                "${workspaceFolder}/Sources/stc_hal/gpio",
+                "${workspaceFolder}/Sources/stc_hal/timer",
+                "${workspaceFolder}/Sources/stc_hal/adc",
+                "${workspaceFolder}/Sources/stc_hal/uart",
+                "${workspaceFolder}/Sources/components/thyristor"
             ],
             "defines": [
                 "__C51__",
